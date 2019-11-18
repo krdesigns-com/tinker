@@ -1,5 +1,5 @@
 {
-    "name": "botman/tinker",
+    "name": "krbotman/tinker",
     "license": "MIT",
     "description": "BotMan tinker command for your Laravel BotMan project",
     "keywords": [
@@ -16,14 +16,15 @@
         }
     ],
     "require": {
-        "php": ">=5.6.0",
-        "botman/botman": "~2.0",
-        "clue/stdio-react": "~1.1.0 | ^2.0",
-        "illuminate/support": "~5.0"
+        "php": "^7.2",
+        "krbotman/botman": "~3.0",
+        "clue/stdio-react": "^2.0",
+        "illuminate/support": "~5.5.0 || ~5.6.0 || ~5.7.0 || ~5.8.0 || ^6.0",
+        "illuminate/console": "~5.5.0 || ~5.6.0 || ~5.7.0 || ~5.8.0 || ^6.0"
     },
     "require-dev": {
-        "orchestra/testbench": "~3.0",
-        "phpunit/phpunit": "~5.0"
+        "orchestra/testbench": "^3.5 || ^3.6 || ^3.7 || ^3.8 || ^4.0",
+        "phpunit/phpunit": "^7.0|^8.0"
     },
     "autoload": {
         "psr-4": {
